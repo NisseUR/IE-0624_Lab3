@@ -218,6 +218,8 @@
 
 <item itemtype="Probe" CircId="Probe-1722" mainComp="false" Show_id="false" Show_Val="true" Pos="200,232" rotation="-45" hflip="1" vflip="1" label="Probe-1722" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
+<item itemtype="Probe" CircId="Probe-1726" mainComp="false" Show_id="false" Show_Val="true" Pos="564,124" rotation="-45" hflip="1" vflip="1" label="Probe-1726" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
 <item itemtype="Node" CircId="Node-195" mainComp="false" Pos="-192,-564" />
 
 <item itemtype="Node" CircId="Node-208" mainComp="false" Pos="-96,-548" />
@@ -303,6 +305,8 @@
 <item itemtype="Node" CircId="Node-1715" mainComp="false" Pos="224,924" />
 
 <item itemtype="Node" CircId="Node-1724" mainComp="false" Pos="240,248" />
+
+<item itemtype="Node" CircId="Node-1728" mainComp="false" Pos="520,76" />
 
 <item itemtype="Connector" uid="connector-1511" startpinid="Pcd8544-4-PinScl" endpinid="Uno-3-3" pointList="428,356,428,380,512,380" />
 
@@ -530,7 +534,7 @@
 
 <item itemtype="Connector" uid="connector-1623" startpinid="Node-1507-2" endpinid="Resistor-673-rPin" pointList="632,-80,616,-80" />
 
-<item itemtype="Connector" uid="connector-1624" startpinid="Switch-570-switch1pinN" endpinid="Node-1510-1" pointList="392,164,392,76,848,76,848,-148" />
+<item itemtype="Connector" uid="connector-1624" startpinid="Switch-570-switch1pinN" endpinid="Node-1728-0" pointList="392,164,392,76,520,76" />
 
 <item itemtype="Connector" uid="connector-1625" startpinid="Node-1510-2" endpinid="Resistor-794-rPin" pointList="848,-148,836,-148,836,-164,820,-164" />
 
@@ -629,5 +633,9 @@
 <item itemtype="Connector" uid="Connector-1723" startpinid="Probe-1722-inpin" endpinid="Node-1724-1" pointList="184,248,240,248" />
 
 <item itemtype="Connector" uid="Connector-1725" startpinid="Node-1724-2" endpinid="Switch-570-switch6pinN" pointList="240,248,240,164,352,164" />
+
+<item itemtype="Connector" uid="Connector-1727" startpinid="Probe-1726-inpin" endpinid="Node-1728-1" pointList="548,140,520,140,520,76" />
+
+<item itemtype="Connector" uid="Connector-1729" startpinid="Node-1728-2" endpinid="Node-1510-1" pointList="520,76,848,76,848,-148" />
 
 </circuit>

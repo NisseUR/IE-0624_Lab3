@@ -12,29 +12,29 @@
 
 <item itemtype="Ground" CircId="Ground-14" mainComp="false" Show_id="false" Show_Val="false" Pos="560,648" rotation="90" hflip="1" vflip="1" label="Ground-14" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-23" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="516,176" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-23" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="24 V" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-23" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="384,184" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-23" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="24 V" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-24" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="516,244" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-24" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="24 V" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-24" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="384,252" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-24" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="24 V" />
 
-<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="584,176" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-11,7" valLabRot="0" Resistance="10 kΩ" />
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="452,184" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-11,7" valLabRot="0" Resistance="10 kΩ" />
 
-<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="580,244" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-9,8" valLabRot="0" Resistance="10 kΩ" />
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="448,252" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-9,8" valLabRot="0" Resistance="10 kΩ" />
 
-<item itemtype="opAmp" CircId="opAmp-194" mainComp="false" Show_id="false" Show_Val="false" Pos="748,224" rotation="360" hflip="1" vflip="1" label="opAmp-194" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Volt_Pos="50 V" Volt_Neg="0 V" Power_Pins="false" Switch_Pins="false" />
+<item itemtype="opAmp" CircId="opAmp-194" mainComp="false" Show_id="false" Show_Val="false" Pos="616,232" rotation="360" hflip="1" vflip="1" label="opAmp-194" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Volt_Pos="50 V" Volt_Neg="0 V" Power_Pins="false" Switch_Pins="false" />
 
-<item itemtype="Resistor" CircId="Resistor-199" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="748,284" rotation="0" hflip="1" vflip="1" label="Resistor-199" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="2 kΩ" />
+<item itemtype="Resistor" CircId="Resistor-199" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="616,292" rotation="0" hflip="1" vflip="1" label="Resistor-199" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="1 kΩ" />
 
-<item itemtype="Ground" CircId="Ground-201" mainComp="false" Show_id="false" Show_Val="false" Pos="644,284" rotation="0" hflip="1" vflip="1" label="Ground-201" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Ground" CircId="Ground-201" mainComp="false" Show_id="false" Show_Val="false" Pos="512,292" rotation="0" hflip="1" vflip="1" label="Ground-201" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Resistor" CircId="Resistor-203" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="680,232" rotation="360" hflip="1" vflip="1" label="Resistor-203" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="2 kΩ" />
+<item itemtype="Resistor" CircId="Resistor-203" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="548,240" rotation="360" hflip="1" vflip="1" label="Resistor-203" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="1 kΩ" />
 
-<item itemtype="Probe" CircId="Probe-210" mainComp="false" Show_id="false" Show_Val="true" Pos="824,232" rotation="-45" hflip="1" vflip="1" label="Probe-210" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+<item itemtype="Probe" CircId="Probe-210" mainComp="false" Show_id="false" Show_Val="true" Pos="688,236" rotation="-45" hflip="1" vflip="1" label="Probe-210" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="Node" CircId="Node-195" mainComp="false" Pos="612,216" />
+<item itemtype="Node" CircId="Node-195" mainComp="false" Pos="480,224" />
 
-<item itemtype="Node" CircId="Node-208" mainComp="false" Pos="708,232" />
+<item itemtype="Node" CircId="Node-208" mainComp="false" Pos="576,240" />
 
-<item itemtype="Node" CircId="Node-230" mainComp="false" Pos="780,248" />
+<item itemtype="Node" CircId="Node-230" mainComp="false" Pos="648,256" />
 
 <item itemtype="Connector" uid="connector-231" startpinid="Pcd8544-4-PinScl" endpinid="Uno-3-3" pointList="644,536,644,560,728,560" />
 
@@ -52,28 +52,28 @@
 
 <item itemtype="Connector" uid="connector-238" startpinid="Led-12-lPin" endpinid="Ground-14-Gnd" pointList="592,648,576,648" />
 
-<item itemtype="Connector" uid="connector-239" startpinid="Resistor-26-lPin" endpinid="Fixed Voltage-24-outnod" pointList="564,244,532,244" />
+<item itemtype="Connector" uid="connector-239" startpinid="Resistor-26-lPin" endpinid="Fixed Voltage-24-outnod" pointList="432,252,400,252" />
 
-<item itemtype="Connector" uid="connector-240" startpinid="Resistor-25-lPin" endpinid="Fixed Voltage-23-outnod" pointList="568,176,532,176" />
+<item itemtype="Connector" uid="connector-240" startpinid="Resistor-25-lPin" endpinid="Fixed Voltage-23-outnod" pointList="436,184,400,184" />
 
-<item itemtype="Connector" uid="connector-241" startpinid="Resistor-25-rPin" endpinid="Node-195-0" pointList="600,176,612,176,612,216" />
+<item itemtype="Connector" uid="connector-241" startpinid="Resistor-25-rPin" endpinid="Node-195-0" pointList="468,184,480,184,480,224" />
 
-<item itemtype="Connector" uid="connector-242" startpinid="Node-195-2" endpinid="Resistor-26-rPin" pointList="612,216,612,244,596,244" />
+<item itemtype="Connector" uid="connector-242" startpinid="Node-195-2" endpinid="Resistor-26-rPin" pointList="480,224,480,252,464,252" />
 
-<item itemtype="Connector" uid="connector-243" startpinid="Node-195-1" endpinid="opAmp-194-inputNinv" pointList="612,216,724,216" />
+<item itemtype="Connector" uid="connector-243" startpinid="Node-195-1" endpinid="opAmp-194-inputNinv" pointList="480,224,592,224" />
 
-<item itemtype="Connector" uid="connector-244" startpinid="Resistor-203-rPin" endpinid="Node-208-0" pointList="696,232,708,232" />
+<item itemtype="Connector" uid="connector-244" startpinid="Resistor-203-rPin" endpinid="Node-208-0" pointList="564,240,576,240" />
 
-<item itemtype="Connector" uid="connector-245" startpinid="Ground-201-Gnd" endpinid="Resistor-203-lPin" pointList="644,268,644,232,664,232" />
+<item itemtype="Connector" uid="connector-245" startpinid="Ground-201-Gnd" endpinid="Resistor-203-lPin" pointList="512,276,512,240,532,240" />
 
-<item itemtype="Connector" uid="connector-246" startpinid="opAmp-194-output" endpinid="Node-230-0" pointList="772,224,780,224,780,248" />
+<item itemtype="Connector" uid="connector-246" startpinid="opAmp-194-output" endpinid="Node-230-0" pointList="640,232,648,232,648,256" />
 
-<item itemtype="Connector" uid="connector-247" startpinid="Resistor-199-lPin" endpinid="Node-208-1" pointList="732,284,708,284,708,232" />
+<item itemtype="Connector" uid="connector-247" startpinid="Resistor-199-lPin" endpinid="Node-208-1" pointList="600,292,576,292,576,240" />
 
-<item itemtype="Connector" uid="connector-248" startpinid="Node-208-2" endpinid="opAmp-194-inputInv" pointList="708,232,724,232" />
+<item itemtype="Connector" uid="connector-248" startpinid="Node-208-2" endpinid="opAmp-194-inputInv" pointList="576,240,592,240" />
 
-<item itemtype="Connector" uid="connector-249" startpinid="Probe-210-inpin" endpinid="Node-230-1" pointList="808,248,780,248" />
+<item itemtype="Connector" uid="connector-249" startpinid="Probe-210-inpin" endpinid="Node-230-1" pointList="672,252,648,252,648,256" />
 
-<item itemtype="Connector" uid="connector-250" startpinid="Node-230-2" endpinid="Resistor-199-rPin" pointList="780,248,780,284,764,284" />
+<item itemtype="Connector" uid="connector-250" startpinid="Node-230-2" endpinid="Resistor-199-rPin" pointList="648,256,648,292,632,292" />
 
 </circuit>

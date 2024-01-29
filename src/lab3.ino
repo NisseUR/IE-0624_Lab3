@@ -73,11 +73,13 @@ void loop(){
     // Se escribe en 1era linea del display
     lcd.setCursor(0, 0);
     lcd.print("V1: ");
+    Serial.println("Voltages DC ");
     Serial.print("V1: ");
     lcd.print(V1);
     Serial.print( V1 );
     lcd.print(" V ");
     Serial.print(" V ");
+    Serial.println();
   
     // Se escribe en 2da linea del display
     lcd.setCursor(0, 1);
@@ -87,6 +89,7 @@ void loop(){
     Serial.print( V2 );
     lcd.print(" V ");
     Serial.print(" V ");
+    Serial.println();
 
     // Se escribe en 3ra linea del display
     lcd.setCursor(0, 2);
@@ -96,6 +99,7 @@ void loop(){
     Serial.print( V3 );
     lcd.print(" V ");
     Serial.print(" V ");
+    Serial.println();
 
     // Se escribe en 4ta linea del display
     lcd.setCursor(0, 3);
@@ -104,7 +108,10 @@ void loop(){
     lcd.print(V4);
     Serial.print( V4 );
     lcd.print(" V ");
-    Serial.println(" V "); 
+    Serial.print(" V ");
+    Serial.println();
+
+    delay(500);
 
   }else if(ac_pin){
     // Se obtiene Vrms
@@ -116,11 +123,13 @@ void loop(){
     // Se escribe en 1era linea del display
     lcd.setCursor(0, 0);
     lcd.print("V1: ");
+    Serial.println("Voltages AC ");
     Serial.print("V1: ");
     lcd.print(V1);
     Serial.print( V1 );
     lcd.print("Vrms");
     Serial.print(" Vrms ");
+    Serial.println();
   
     // Se escribe en 2da linea del display
     lcd.setCursor(0, 1);
@@ -130,6 +139,7 @@ void loop(){
     Serial.print( V2 );
     lcd.print("Vrms");
     Serial.print(" Vrms ");
+    Serial.println();
 
     // Se escribe en 3ra linea del display
     lcd.setCursor(0, 2);
@@ -139,6 +149,7 @@ void loop(){
     Serial.print( V3 );
     lcd.print("Vrms");
     Serial.print(" Vrms ");
+    Serial.println();
 
     // Se escribe en 4ta linea del display
     lcd.setCursor(0, 3);
@@ -147,7 +158,10 @@ void loop(){
     lcd.print(V4);
     Serial.print( V4 );
     lcd.print("Vrms");
-    Serial.println(" Vrms ");
+    Serial.print(" Vrms ");
+    Serial.println();
+
+    delay(500);
 
   }
 

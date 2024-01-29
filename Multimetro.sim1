@@ -1,10 +1,10 @@
 <circuit version="1.0.0-SR1" rev="1448" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
 
 <item itemtype="Subcircuit" CircId="Uno-3" mainComp="false" Show_id="true" Show_Val="false" Pos="504,340" rotation="0" hflip="1" vflip="1" label="Uno-3" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
-<mainCompProps itemtype="MCU" CircId="3_mega328-109" mainComp="true" Show_id="true" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="3_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../Arduino/lab3/build/arduino.avr.uno/lab3.ino.hex" Auto_Load="true" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+<mainCompProps itemtype="MCU" CircId="3_mega328-109" mainComp="true" Show_id="true" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="3_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Auto_Load="true" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
 </item>
 
-<item itemtype="Pcd8544" CircId="Pcd8544-4" mainComp="false" Show_id="true" Show_Val="false" Pos="396,316" rotation="0" hflip="1" vflip="1" label="Pcd8544-4" idLabPos="-32,-66" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Pcd8544" CircId="Pcd8544-4" mainComp="false" Show_id="true" Show_Val="false" Pos="424,312" rotation="0" hflip="1" vflip="1" label="Pcd8544-4" idLabPos="-32,-66" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
 <item itemtype="Resistor" CircId="Resistor-10" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="448,468" rotation="0" hflip="1" vflip="1" label="Resistor-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="140 Ω" />
 
@@ -280,6 +280,32 @@
 
 <item itemtype="SerialPort" CircId="SerialPort-5095" mainComp="false" Show_id="false" Show_Val="false" Pos="544,292" rotation="0" hflip="1" vflip="1" label="SerialPort-5095" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Port="/tmp/ttyS0" Baudrate="9600 _Bauds" DataBits="8 _Bits" StopBits="1 _Bits" />
 
+<item itemtype="Resistor" CircId="Resistor-5279" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="744,220" rotation="0" hflip="1" vflip="1" label="Resistor-5279" idLabPos="-16,-24" labelrot="0" valLabPos="-10,6" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="Capacitor" CircId="Capacitor-5286" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="744,252" rotation="360" hflip="1" vflip="1" label="Capacitor-5286" idLabPos="-16,-24" labelrot="0" valLabPos="-12,8" valLabRot="0" Capacitance="10 nF" Resistance="1e-06 Ω" InitVolt="0 V" AutoStep="0 _Steps" />
+
+<item itemtype="Ground" CircId="Ground-5291" mainComp="false" Show_id="false" Show_Val="false" Pos="776,188" rotation="180" hflip="1" vflip="1" label="Ground-5291" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-5295" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="784,272" rotation="0" hflip="1" vflip="1" label="Resistor-5295" idLabPos="-16,-24" labelrot="0" valLabPos="-10,6" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="Ground" CircId="Ground-5298" mainComp="false" Show_id="false" Show_Val="false" Pos="816,240" rotation="180" hflip="1" vflip="1" label="Ground-5298" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Capacitor" CircId="Capacitor-5299" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="784,304" rotation="360" hflip="1" vflip="1" label="Capacitor-5299" idLabPos="-16,-24" labelrot="0" valLabPos="-12,8" valLabRot="0" Capacitance="10 nF" Resistance="1e-06 Ω" InitVolt="0 V" AutoStep="0 _Steps" />
+
+<item itemtype="Resistor" CircId="Resistor-5306" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="840,316" rotation="0" hflip="1" vflip="1" label="Resistor-5306" idLabPos="-16,-24" labelrot="0" valLabPos="-10,6" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="Ground" CircId="Ground-5309" mainComp="false" Show_id="false" Show_Val="false" Pos="872,284" rotation="180" hflip="1" vflip="1" label="Ground-5309" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Capacitor" CircId="Capacitor-5310" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="840,348" rotation="360" hflip="1" vflip="1" label="Capacitor-5310" idLabPos="-16,-24" labelrot="0" valLabPos="-12,8" valLabRot="0" Capacitance="10 nF" Resistance="1e-06 Ω" InitVolt="0 V" AutoStep="0 _Steps" />
+
+<item itemtype="Resistor" CircId="Resistor-5317" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="904,356" rotation="0" hflip="1" vflip="1" label="Resistor-5317" idLabPos="-16,-24" labelrot="0" valLabPos="-10,6" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="Ground" CircId="Ground-5320" mainComp="false" Show_id="false" Show_Val="false" Pos="936,324" rotation="180" hflip="1" vflip="1" label="Ground-5320" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Capacitor" CircId="Capacitor-5321" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="904,388" rotation="360" hflip="1" vflip="1" label="Capacitor-5321" idLabPos="-16,-24" labelrot="0" valLabPos="-12,8" valLabRot="0" Capacitance="10 nF" Resistance="1e-06 Ω" InitVolt="0 V" AutoStep="0 _Steps" />
+
+<item itemtype="TextComponent" CircId="TextComponent-5539" mainComp="false" Show_id="false" Show_Val="false" Pos="844,240" rotation="0" hflip="1" vflip="1" label="TextComponent-5539" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Fixed_Width="false" Text="Filtro RC para debounce" />
+
 <item itemtype="Node" CircId="Node-195" mainComp="false" Pos="-192,-564" />
 
 <item itemtype="Node" CircId="Node-208" mainComp="false" Pos="-96,-548" />
@@ -370,370 +396,450 @@
 
 <item itemtype="Node" CircId="Node-4910" mainComp="false" Pos="560,116" />
 
-<item itemtype="Connector" uid="connector-5096" startpinid="Pcd8544-4-PinScl" endpinid="Uno-3-3" pointList="428,356,428,380,512,380" />
+<item itemtype="Node" CircId="Node-5283" mainComp="false" Pos="700,220" />
 
-<item itemtype="Connector" uid="connector-5097" startpinid="Pcd8544-4-PinSi" endpinid="Uno-3-4" pointList="412,356,412,388,512,388" />
+<item itemtype="Node" CircId="Node-5288" mainComp="false" Pos="712,220" />
 
-<item itemtype="Connector" uid="connector-5098" startpinid="Pcd8544-4-PinDc" endpinid="Uno-3-5" pointList="396,356,396,396,512,396" />
+<item itemtype="Node" CircId="Node-5293" mainComp="false" Pos="776,220" />
 
-<item itemtype="Connector" uid="connector-5099" startpinid="Pcd8544-4-PinRst" endpinid="Uno-3-6" pointList="364,356,364,404,512,404" />
+<item itemtype="Node" CircId="Node-5296" mainComp="false" Pos="816,272" />
 
-<item itemtype="Connector" uid="connector-5100" startpinid="Uno-3-13" endpinid="Resistor-10-rPin" pointList="512,468,464,468" />
+<item itemtype="Node" CircId="Node-5307" mainComp="false" Pos="872,316" />
 
-<item itemtype="Connector" uid="connector-5101" startpinid="Resistor-10-lPin" endpinid="Led-12-rPin" pointList="432,468,408,468" />
+<item itemtype="Node" CircId="Node-5318" mainComp="false" Pos="936,356" />
 
-<item itemtype="Connector" uid="connector-5102" startpinid="Led-12-lPin" endpinid="Ground-14-Gnd" pointList="376,468,360,468" />
+<item itemtype="Node" CircId="Node-5524" mainComp="false" Pos="752,272" />
 
-<item itemtype="Connector" uid="connector-5103" startpinid="Resistor-25-lPin" endpinid="Fixed Voltage-23-outnod" pointList="-236,-604,-272,-604" />
+<item itemtype="Node" CircId="Node-5527" mainComp="false" Pos="692,272" />
 
-<item itemtype="Connector" uid="connector-5104" startpinid="Resistor-25-rPin" endpinid="Node-195-0" pointList="-204,-604,-192,-604,-192,-564" />
+<item itemtype="Node" CircId="Node-5529" mainComp="false" Pos="808,316" />
 
-<item itemtype="Connector" uid="connector-5105" startpinid="Node-195-2" endpinid="Resistor-26-rPin" pointList="-192,-564,-192,-536,-208,-536" />
+<item itemtype="Node" CircId="Node-5532" mainComp="false" Pos="684,316" />
 
-<item itemtype="Connector" uid="connector-5106" startpinid="Resistor-203-rPin" endpinid="Node-208-0" pointList="-108,-548,-96,-548" />
+<item itemtype="Node" CircId="Node-5534" mainComp="false" Pos="872,356" />
 
-<item itemtype="Connector" uid="connector-5107" startpinid="Ground-201-Gnd" endpinid="Resistor-203-lPin" pointList="-160,-512,-160,-548,-140,-548" />
+<item itemtype="Node" CircId="Node-5537" mainComp="false" Pos="676,356" />
 
-<item itemtype="Connector" uid="connector-5108" startpinid="Resistor-199-lPin" endpinid="Node-208-1" pointList="-72,-496,-96,-496,-96,-548" />
+<item itemtype="Connector" uid="connector-5322" startpinid="Pcd8544-4-PinScl" endpinid="Uno-3-3" pointList="456,352,456,380,512,380" />
 
-<item itemtype="Connector" uid="connector-5109" startpinid="Node-208-2" endpinid="opAmp-194-inputInv" pointList="-96,-548,-80,-548" />
+<item itemtype="Connector" uid="connector-5323" startpinid="Pcd8544-4-PinSi" endpinid="Uno-3-4" pointList="440,352,440,388,512,388" />
 
-<item itemtype="Connector" uid="connector-5110" startpinid="opAmp-194-output" endpinid="Node-256-0" pointList="-32,-556,-24,-556" />
+<item itemtype="Connector" uid="connector-5324" startpinid="Pcd8544-4-PinDc" endpinid="Uno-3-5" pointList="424,352,424,396,512,396" />
 
-<item itemtype="Connector" uid="connector-5111" startpinid="Probe-210-inpin" endpinid="Node-252-1" pointList="16,-508,-24,-508" />
+<item itemtype="Connector" uid="connector-5325" startpinid="Pcd8544-4-PinRst" endpinid="Uno-3-6" pointList="392,352,392,404,512,404" />
 
-<item itemtype="Connector" uid="connector-5112" startpinid="Node-252-2" endpinid="Resistor-199-rPin" pointList="-24,-508,-24,-496,-40,-496" />
+<item itemtype="Connector" uid="connector-5326" startpinid="Uno-3-13" endpinid="Resistor-10-rPin" pointList="512,468,464,468" />
 
-<item itemtype="Connector" uid="connector-5113" startpinid="Resistor-254-lPin" endpinid="Node-256-1" pointList="8,-556,-24,-556" />
+<item itemtype="Connector" uid="connector-5327" startpinid="Resistor-10-lPin" endpinid="Led-12-rPin" pointList="432,468,408,468" />
 
-<item itemtype="Connector" uid="connector-5114" startpinid="Node-256-2" endpinid="Node-252-0" pointList="-24,-556,-24,-508" />
+<item itemtype="Connector" uid="connector-5328" startpinid="Led-12-lPin" endpinid="Ground-14-Gnd" pointList="376,468,360,468" />
 
-<item itemtype="Connector" uid="connector-5115" startpinid="Resistor-258-lPin" endpinid="Node-264-0" pointList="68,-556,56,-556" />
+<item itemtype="Connector" uid="connector-5329" startpinid="Resistor-25-lPin" endpinid="Fixed Voltage-23-outnod" pointList="-236,-604,-272,-604" />
 
-<item itemtype="Connector" uid="connector-5116" startpinid="Ground-260-Gnd" endpinid="Resistor-258-rPin" pointList="120,-540,120,-556,100,-556" />
+<item itemtype="Connector" uid="connector-5330" startpinid="Resistor-25-rPin" endpinid="Node-195-0" pointList="-204,-604,-192,-604,-192,-564" />
 
-<item itemtype="Connector" uid="connector-5117" startpinid="Probe-262-inpin" endpinid="Node-264-1" pointList="56,-580,56,-556" />
+<item itemtype="Connector" uid="connector-5331" startpinid="Node-195-2" endpinid="Resistor-26-rPin" pointList="-192,-564,-192,-536,-208,-536" />
 
-<item itemtype="Connector" uid="connector-5118" startpinid="Diode-323-rPin" endpinid="Diode-324-lPin" pointList="348,-484,396,-484" />
+<item itemtype="Connector" uid="connector-5332" startpinid="Resistor-203-rPin" endpinid="Node-208-0" pointList="-108,-548,-96,-548" />
 
-<item itemtype="Connector" uid="connector-5119" startpinid="Diode-322-lPin" endpinid="Node-390-0" pointList="396,-548,372,-548" />
+<item itemtype="Connector" uid="connector-5333" startpinid="Ground-201-Gnd" endpinid="Resistor-203-lPin" pointList="-160,-512,-160,-548,-140,-548" />
 
-<item itemtype="Connector" uid="connector-5120" startpinid="Diode-321-lPin" endpinid="Node-380-0" pointList="316,-548,308,-548,308,-516" />
+<item itemtype="Connector" uid="connector-5334" startpinid="Resistor-199-lPin" endpinid="Node-208-1" pointList="-72,-496,-96,-496,-96,-548" />
 
-<item itemtype="Connector" uid="connector-5121" startpinid="Ground-356-Gnd" endpinid="Node-380-1" pointList="276,-504,276,-516,308,-516" />
+<item itemtype="Connector" uid="connector-5335" startpinid="Node-208-2" endpinid="opAmp-194-inputInv" pointList="-96,-548,-80,-548" />
 
-<item itemtype="Connector" uid="connector-5122" startpinid="Node-380-2" endpinid="Diode-323-lPin" pointList="308,-516,308,-484,316,-484" />
+<item itemtype="Connector" uid="connector-5336" startpinid="opAmp-194-output" endpinid="Node-256-0" pointList="-32,-556,-24,-556" />
 
-<item itemtype="Connector" uid="connector-5123" startpinid="Node-390-2" endpinid="Diode-321-rPin" pointList="372,-548,348,-548" />
+<item itemtype="Connector" uid="connector-5337" startpinid="Probe-210-inpin" endpinid="Node-252-1" pointList="16,-508,-24,-508" />
 
-<item itemtype="Connector" uid="connector-5124" startpinid="Diode-324-rPin" endpinid="Node-476-0" pointList="428,-484,428,-516" />
+<item itemtype="Connector" uid="connector-5338" startpinid="Node-252-2" endpinid="Resistor-199-rPin" pointList="-24,-508,-24,-496,-40,-496" />
 
-<item itemtype="Connector" uid="connector-5125" startpinid="Node-476-2" endpinid="Diode-322-rPin" pointList="428,-516,428,-548" />
+<item itemtype="Connector" uid="connector-5339" startpinid="Resistor-254-lPin" endpinid="Node-256-1" pointList="8,-556,-24,-556" />
 
-<item itemtype="Connector" uid="connector-5126" startpinid="Capacitor-446-rPin" endpinid="Ground-392-Gnd" pointList="524,-456,524,-432" />
+<item itemtype="Connector" uid="connector-5340" startpinid="Node-256-2" endpinid="Node-252-0" pointList="-24,-556,-24,-508" />
 
-<item itemtype="Connector" uid="connector-5127" startpinid="Capacitor-446-lPin" endpinid="Node-487-0" pointList="524,-488,524,-508" />
+<item itemtype="Connector" uid="connector-5341" startpinid="Resistor-258-lPin" endpinid="Node-264-0" pointList="68,-556,56,-556" />
 
-<item itemtype="Connector" uid="connector-5128" startpinid="WaveGen-388-outnod" endpinid="Node-484-0" pointList="356,-600,372,-600,372,-584" />
+<item itemtype="Connector" uid="connector-5342" startpinid="Ground-260-Gnd" endpinid="Resistor-258-rPin" pointList="120,-540,120,-556,100,-556" />
 
-<item itemtype="Connector" uid="connector-5129" startpinid="Oscope-482-Pin0" endpinid="Node-484-1" pointList="568,-580,372,-580,372,-584" />
+<item itemtype="Connector" uid="connector-5343" startpinid="Probe-262-inpin" endpinid="Node-264-1" pointList="56,-580,56,-556" />
 
-<item itemtype="Connector" uid="connector-5130" startpinid="Node-484-2" endpinid="Node-390-1" pointList="372,-584,372,-548" />
+<item itemtype="Connector" uid="connector-5344" startpinid="Diode-323-rPin" endpinid="Diode-324-lPin" pointList="348,-484,396,-484" />
 
-<item itemtype="Connector" uid="connector-5131" startpinid="Oscope-482-Pin3" endpinid="Node-487-1" pointList="568,-484,548,-484,548,-508,524,-508" />
+<item itemtype="Connector" uid="connector-5345" startpinid="Diode-322-lPin" endpinid="Node-390-0" pointList="396,-548,372,-548" />
 
-<item itemtype="Connector" uid="connector-5132" startpinid="Node-487-2" endpinid="Node-476-1" pointList="524,-508,524,-516,428,-516" />
+<item itemtype="Connector" uid="connector-5346" startpinid="Diode-321-lPin" endpinid="Node-380-0" pointList="316,-548,308,-548,308,-516" />
 
-<item itemtype="Connector" uid="connector-5133" startpinid="Node-195-1" endpinid="opAmp-194-inputNinv" pointList="-192,-564,-80,-564" />
+<item itemtype="Connector" uid="connector-5347" startpinid="Ground-356-Gnd" endpinid="Node-380-1" pointList="276,-504,276,-516,308,-516" />
 
-<item itemtype="Connector" uid="connector-5134" startpinid="Resistor-26-lPin" endpinid="Fixed Voltage-24-outnod" pointList="-240,-536,-272,-536" />
+<item itemtype="Connector" uid="connector-5348" startpinid="Node-380-2" endpinid="Diode-323-lPin" pointList="308,-516,308,-484,316,-484" />
 
-<item itemtype="Connector" uid="connector-5135" startpinid="Node-264-2" endpinid="Resistor-254-rPin" pointList="56,-556,40,-556" />
+<item itemtype="Connector" uid="connector-5349" startpinid="Node-390-2" endpinid="Diode-321-rPin" pointList="372,-548,348,-548" />
 
-<item itemtype="Connector" uid="connector-5136" startpinid="Resistor-544-lPin" endpinid="Node-532-1" pointList="164,96,156,96" />
+<item itemtype="Connector" uid="connector-5350" startpinid="Diode-324-rPin" endpinid="Node-476-0" pointList="428,-484,428,-516" />
 
-<item itemtype="Connector" uid="connector-5137" startpinid="Ground-534-Gnd" endpinid="Resistor-547-lPin" pointList="20,140,20,120,44,120" />
+<item itemtype="Connector" uid="connector-5351" startpinid="Node-476-2" endpinid="Diode-322-rPin" pointList="428,-516,428,-548" />
 
-<item itemtype="Connector" uid="connector-5138" startpinid="Resistor-538-lPin" endpinid="Node-546-1" pointList="108,156,84,156,84,104" />
+<item itemtype="Connector" uid="connector-5352" startpinid="Capacitor-446-rPin" endpinid="Ground-392-Gnd" pointList="524,-456,524,-432" />
 
-<item itemtype="Connector" uid="connector-5139" startpinid="Resistor-543-lPin" endpinid="Fixed Voltage-541-outnod" pointList="36,44,28,44" />
+<item itemtype="Connector" uid="connector-5353" startpinid="Capacitor-446-lPin" endpinid="Node-487-0" pointList="524,-488,524,-508" />
 
-<item itemtype="Connector" uid="connector-5140" startpinid="Ground-536-Gnd" endpinid="Resistor-530-rPin" pointList="248,104,248,96,240,96" />
+<item itemtype="Connector" uid="connector-5354" startpinid="WaveGen-388-outnod" endpinid="Node-484-0" pointList="356,-600,372,-600,372,-584" />
 
-<item itemtype="Connector" uid="connector-5141" startpinid="Node-546-2" endpinid="opAmp-540-inputInv" pointList="84,104,100,104" />
+<item itemtype="Connector" uid="connector-5355" startpinid="Oscope-482-Pin0" endpinid="Node-484-1" pointList="568,-580,372,-580,372,-584" />
 
-<item itemtype="Connector" uid="connector-5142" startpinid="Resistor-547-rPin" endpinid="Node-546-0" pointList="76,120,84,120,84,104" />
+<item itemtype="Connector" uid="connector-5356" startpinid="Node-484-2" endpinid="Node-390-1" pointList="372,-584,372,-548" />
 
-<item itemtype="Connector" uid="connector-5143" startpinid="opAmp-540-output" endpinid="Node-532-0" pointList="148,96,156,96" />
+<item itemtype="Connector" uid="connector-5357" startpinid="Oscope-482-Pin3" endpinid="Node-487-1" pointList="568,-484,548,-484,548,-508,524,-508" />
 
-<item itemtype="Connector" uid="connector-5144" startpinid="Node-532-2" endpinid="Resistor-538-rPin" pointList="156,96,156,156,140,156" />
+<item itemtype="Connector" uid="connector-5358" startpinid="Node-487-2" endpinid="Node-476-1" pointList="524,-508,524,-516,428,-516" />
 
-<item itemtype="Connector" uid="connector-5145" startpinid="Diode-927-lPin" endpinid="Node-928-0" pointList="-68,220,-72,220,-72,252" />
+<item itemtype="Connector" uid="connector-5359" startpinid="Node-195-1" endpinid="opAmp-194-inputNinv" pointList="-192,-564,-80,-564" />
 
-<item itemtype="Connector" uid="connector-5146" startpinid="Node-928-2" endpinid="Diode-925-lPin" pointList="-72,252,-72,284,-68,284" />
+<item itemtype="Connector" uid="connector-5360" startpinid="Resistor-26-lPin" endpinid="Fixed Voltage-24-outnod" pointList="-240,-536,-272,-536" />
 
-<item itemtype="Connector" uid="connector-5147" startpinid="WaveGen-931-outnod" endpinid="Node-924-1" pointList="-44,168,-28,168,-28,220" />
+<item itemtype="Connector" uid="connector-5361" startpinid="Node-264-2" endpinid="Resistor-254-rPin" pointList="56,-556,40,-556" />
 
-<item itemtype="Connector" uid="connector-5148" startpinid="Diode-925-rPin" endpinid="Diode-933-lPin" pointList="-36,284,-16,284" />
+<item itemtype="Connector" uid="connector-5362" startpinid="Resistor-544-lPin" endpinid="Node-532-1" pointList="164,96,156,96" />
 
-<item itemtype="Connector" uid="connector-5149" startpinid="Node-924-2" endpinid="Diode-927-rPin" pointList="-28,220,-36,220" />
+<item itemtype="Connector" uid="connector-5363" startpinid="Ground-534-Gnd" endpinid="Resistor-547-lPin" pointList="20,140,20,120,44,120" />
 
-<item itemtype="Connector" uid="connector-5150" startpinid="Diode-930-lPin" endpinid="Node-924-0" pointList="-16,220,-28,220" />
+<item itemtype="Connector" uid="connector-5364" startpinid="Resistor-538-lPin" endpinid="Node-546-1" pointList="108,156,84,156,84,104" />
 
-<item itemtype="Connector" uid="connector-5151" startpinid="Ground-923-Gnd" endpinid="Node-928-1" pointList="-104,264,-104,252,-72,252" />
+<item itemtype="Connector" uid="connector-5365" startpinid="Resistor-543-lPin" endpinid="Fixed Voltage-541-outnod" pointList="36,44,28,44" />
 
-<item itemtype="Connector" uid="connector-5152" startpinid="Node-2553-2" endpinid="Resistor-2547-rPin" pointList="252,-8,252,52,236,52" />
+<item itemtype="Connector" uid="connector-5366" startpinid="Ground-536-Gnd" endpinid="Resistor-530-rPin" pointList="248,104,248,96,240,96" />
 
-<item itemtype="Connector" uid="connector-5153" startpinid="Resistor-2547-lPin" endpinid="Node-2556-1" pointList="204,52,180,52,180,0" />
+<item itemtype="Connector" uid="connector-5367" startpinid="Node-546-2" endpinid="opAmp-540-inputInv" pointList="84,104,100,104" />
 
-<item itemtype="Connector" uid="connector-5154" startpinid="Ground-2551-Gnd" endpinid="Resistor-2555-rPin" pointList="344,0,344,-8,336,-8" />
+<item itemtype="Connector" uid="connector-5368" startpinid="Resistor-547-rPin" endpinid="Node-546-0" pointList="76,120,84,120,84,104" />
 
-<item itemtype="Connector" uid="connector-5155" startpinid="Resistor-2550-rPin" endpinid="Node-2556-0" pointList="172,16,180,16,180,0" />
+<item itemtype="Connector" uid="connector-5369" startpinid="opAmp-540-output" endpinid="Node-532-0" pointList="148,96,156,96" />
 
-<item itemtype="Connector" uid="connector-5156" startpinid="Ground-2548-Gnd" endpinid="Resistor-2550-lPin" pointList="116,36,116,16,140,16" />
+<item itemtype="Connector" uid="connector-5370" startpinid="Node-532-2" endpinid="Resistor-538-rPin" pointList="156,96,156,156,140,156" />
 
-<item itemtype="Connector" uid="connector-5157" startpinid="Resistor-2554-lPin" endpinid="Node-2553-1" pointList="260,-8,252,-8" />
+<item itemtype="Connector" uid="connector-5371" startpinid="Diode-927-lPin" endpinid="Node-928-0" pointList="-68,220,-72,220,-72,252" />
 
-<item itemtype="Connector" uid="connector-5158" startpinid="Node-2556-2" endpinid="opAmp-2558-inputInv" pointList="180,0,196,0" />
+<item itemtype="Connector" uid="connector-5372" startpinid="Node-928-2" endpinid="Diode-925-lPin" pointList="-72,252,-72,284,-68,284" />
 
-<item itemtype="Connector" uid="connector-5159" startpinid="opAmp-2558-output" endpinid="Node-2553-0" pointList="244,-8,252,-8" />
+<item itemtype="Connector" uid="connector-5373" startpinid="WaveGen-931-outnod" endpinid="Node-924-1" pointList="-44,168,-28,168,-28,220" />
 
-<item itemtype="Connector" uid="connector-5160" startpinid="Node-2582-2" endpinid="Resistor-2576-rPin" pointList="540,-20,540,40,524,40" />
+<item itemtype="Connector" uid="connector-5374" startpinid="Diode-925-rPin" endpinid="Diode-933-lPin" pointList="-36,284,-16,284" />
 
-<item itemtype="Connector" uid="connector-5161" startpinid="Resistor-2576-lPin" endpinid="Node-2585-1" pointList="492,40,468,40,468,-12" />
+<item itemtype="Connector" uid="connector-5375" startpinid="Node-924-2" endpinid="Diode-927-rPin" pointList="-28,220,-36,220" />
 
-<item itemtype="Connector" uid="connector-5162" startpinid="Ground-2580-Gnd" endpinid="Resistor-2584-rPin" pointList="632,-12,632,-20,624,-20" />
+<item itemtype="Connector" uid="connector-5376" startpinid="Diode-930-lPin" endpinid="Node-924-0" pointList="-16,220,-28,220" />
 
-<item itemtype="Connector" uid="connector-5163" startpinid="Resistor-2579-rPin" endpinid="Node-2585-0" pointList="460,4,468,4,468,-12" />
+<item itemtype="Connector" uid="connector-5377" startpinid="Ground-923-Gnd" endpinid="Node-928-1" pointList="-104,264,-104,252,-72,252" />
 
-<item itemtype="Connector" uid="connector-5164" startpinid="Ground-2577-Gnd" endpinid="Resistor-2579-lPin" pointList="404,24,404,4,428,4" />
+<item itemtype="Connector" uid="connector-5378" startpinid="Node-2553-2" endpinid="Resistor-2547-rPin" pointList="252,-8,252,52,236,52" />
 
-<item itemtype="Connector" uid="connector-5165" startpinid="Resistor-2583-lPin" endpinid="Node-2582-1" pointList="548,-20,540,-20" />
+<item itemtype="Connector" uid="connector-5379" startpinid="Resistor-2547-lPin" endpinid="Node-2556-1" pointList="204,52,180,52,180,0" />
 
-<item itemtype="Connector" uid="connector-5166" startpinid="Node-2585-2" endpinid="opAmp-2587-inputInv" pointList="468,-12,484,-12" />
+<item itemtype="Connector" uid="connector-5380" startpinid="Ground-2551-Gnd" endpinid="Resistor-2555-rPin" pointList="344,0,344,-8,336,-8" />
 
-<item itemtype="Connector" uid="connector-5167" startpinid="opAmp-2587-output" endpinid="Node-2582-0" pointList="532,-20,540,-20" />
+<item itemtype="Connector" uid="connector-5381" startpinid="Resistor-2550-rPin" endpinid="Node-2556-0" pointList="172,16,180,16,180,0" />
 
-<item itemtype="Connector" uid="connector-5168" startpinid="Node-2613-2" endpinid="Resistor-2607-rPin" pointList="652,124,652,184,636,184" />
+<item itemtype="Connector" uid="connector-5382" startpinid="Ground-2548-Gnd" endpinid="Resistor-2550-lPin" pointList="116,36,116,16,140,16" />
 
-<item itemtype="Connector" uid="connector-5169" startpinid="Resistor-2607-lPin" endpinid="Node-2616-1" pointList="604,184,580,184,580,132" />
+<item itemtype="Connector" uid="connector-5383" startpinid="Resistor-2554-lPin" endpinid="Node-2553-1" pointList="260,-8,252,-8" />
 
-<item itemtype="Connector" uid="connector-5170" startpinid="Ground-2611-Gnd" endpinid="Resistor-2615-rPin" pointList="744,132,744,124,736,124" />
+<item itemtype="Connector" uid="connector-5384" startpinid="Node-2556-2" endpinid="opAmp-2558-inputInv" pointList="180,0,196,0" />
 
-<item itemtype="Connector" uid="connector-5171" startpinid="Resistor-2610-rPin" endpinid="Node-2616-0" pointList="572,148,580,148,580,132" />
+<item itemtype="Connector" uid="connector-5385" startpinid="opAmp-2558-output" endpinid="Node-2553-0" pointList="244,-8,252,-8" />
 
-<item itemtype="Connector" uid="connector-5172" startpinid="Ground-2608-Gnd" endpinid="Resistor-2610-lPin" pointList="516,168,516,148,540,148" />
+<item itemtype="Connector" uid="connector-5386" startpinid="Node-2582-2" endpinid="Resistor-2576-rPin" pointList="540,-20,540,40,524,40" />
 
-<item itemtype="Connector" uid="connector-5173" startpinid="Resistor-2614-lPin" endpinid="Node-2613-1" pointList="660,124,652,124" />
+<item itemtype="Connector" uid="connector-5387" startpinid="Resistor-2576-lPin" endpinid="Node-2585-1" pointList="492,40,468,40,468,-12" />
 
-<item itemtype="Connector" uid="connector-5174" startpinid="Node-2616-2" endpinid="opAmp-2618-inputInv" pointList="580,132,596,132" />
+<item itemtype="Connector" uid="connector-5388" startpinid="Ground-2580-Gnd" endpinid="Resistor-2584-rPin" pointList="632,-12,632,-20,624,-20" />
 
-<item itemtype="Connector" uid="connector-5175" startpinid="opAmp-2618-output" endpinid="Node-2613-0" pointList="644,124,652,124" />
+<item itemtype="Connector" uid="connector-5389" startpinid="Resistor-2579-rPin" endpinid="Node-2585-0" pointList="460,4,468,4,468,-12" />
 
-<item itemtype="Connector" uid="connector-5176" startpinid="Diode-933-rPin" endpinid="Node-2990-0" pointList="16,284,28,284,28,252" />
+<item itemtype="Connector" uid="connector-5390" startpinid="Ground-2577-Gnd" endpinid="Resistor-2579-lPin" pointList="404,24,404,4,428,4" />
 
-<item itemtype="Connector" uid="connector-5177" startpinid="Node-2990-2" endpinid="Diode-930-rPin" pointList="28,252,28,220,16,220" />
+<item itemtype="Connector" uid="connector-5391" startpinid="Resistor-2583-lPin" endpinid="Node-2582-1" pointList="548,-20,540,-20" />
 
-<item itemtype="Connector" uid="connector-5178" startpinid="Node-2990-1" endpinid="Node-3157-0" pointList="28,252,52,252" />
+<item itemtype="Connector" uid="connector-5392" startpinid="Node-2585-2" endpinid="opAmp-2587-inputInv" pointList="468,-12,484,-12" />
 
-<item itemtype="Connector" uid="connector-5179" startpinid="Capacitor-2996-rPin" endpinid="Ground-2997-Gnd" pointList="52,300,52,312" />
+<item itemtype="Connector" uid="connector-5393" startpinid="opAmp-2587-output" endpinid="Node-2582-0" pointList="532,-20,540,-20" />
 
-<item itemtype="Connector" uid="connector-5180" startpinid="Capacitor-2996-lPin" endpinid="Node-3157-1" pointList="52,268,52,252" />
+<item itemtype="Connector" uid="connector-5394" startpinid="Node-2613-2" endpinid="Resistor-2607-rPin" pointList="652,124,652,184,636,184" />
 
-<item itemtype="Connector" uid="connector-5181" startpinid="Node-3157-2" endpinid="Resistor-2964-lPin" pointList="52,252,92,252" />
+<item itemtype="Connector" uid="connector-5395" startpinid="Resistor-2607-lPin" endpinid="Node-2616-1" pointList="604,184,580,184,580,132" />
 
-<item itemtype="Connector" uid="connector-5182" startpinid="Diode-3342-lPin" endpinid="Node-3324-0" pointList="-76,368,-80,368,-80,400" />
+<item itemtype="Connector" uid="connector-5396" startpinid="Ground-2611-Gnd" endpinid="Resistor-2615-rPin" pointList="744,132,744,124,736,124" />
 
-<item itemtype="Connector" uid="connector-5183" startpinid="Node-3324-2" endpinid="Diode-3344-lPin" pointList="-80,400,-80,432,-76,432" />
+<item itemtype="Connector" uid="connector-5397" startpinid="Resistor-2610-rPin" endpinid="Node-2616-0" pointList="572,148,580,148,580,132" />
 
-<item itemtype="Connector" uid="connector-5184" startpinid="Ground-3339-Gnd" endpinid="Node-3324-1" pointList="-112,412,-112,400,-80,400" />
+<item itemtype="Connector" uid="connector-5398" startpinid="Ground-2608-Gnd" endpinid="Resistor-2610-lPin" pointList="516,168,516,148,540,148" />
 
-<item itemtype="Connector" uid="connector-5185" startpinid="Diode-3340-rPin" endpinid="Node-3337-0" pointList="8,432,20,432,20,400" />
+<item itemtype="Connector" uid="connector-5399" startpinid="Resistor-2614-lPin" endpinid="Node-2613-1" pointList="660,124,652,124" />
 
-<item itemtype="Connector" uid="connector-5186" startpinid="Capacitor-3335-rPin" endpinid="Ground-3341-Gnd" pointList="44,444,44,456" />
+<item itemtype="Connector" uid="connector-5400" startpinid="Node-2616-2" endpinid="opAmp-2618-inputInv" pointList="580,132,596,132" />
 
-<item itemtype="Connector" uid="connector-5187" startpinid="Diode-3344-rPin" endpinid="Diode-3340-lPin" pointList="-44,432,-24,432" />
+<item itemtype="Connector" uid="connector-5401" startpinid="opAmp-2618-output" endpinid="Node-2613-0" pointList="644,124,652,124" />
 
-<item itemtype="Connector" uid="connector-5188" startpinid="Node-3337-2" endpinid="Diode-3330-rPin" pointList="20,400,20,368,8,368" />
+<item itemtype="Connector" uid="connector-5402" startpinid="Diode-933-rPin" endpinid="Node-2990-0" pointList="16,284,28,284,28,252" />
 
-<item itemtype="Connector" uid="connector-5189" startpinid="Diode-3330-lPin" endpinid="Node-3376-0" pointList="-24,368,-32,368" />
+<item itemtype="Connector" uid="connector-5403" startpinid="Node-2990-2" endpinid="Diode-930-rPin" pointList="28,252,28,220,16,220" />
 
-<item itemtype="Connector" uid="connector-5190" startpinid="WaveGen-1641-outnod" endpinid="Node-3376-1" pointList="-36,332,-36,368,-32,368" />
+<item itemtype="Connector" uid="connector-5404" startpinid="Node-2990-1" endpinid="Node-3157-0" pointList="28,252,52,252" />
 
-<item itemtype="Connector" uid="connector-5191" startpinid="Node-3376-2" endpinid="Diode-3342-rPin" pointList="-32,368,-44,368" />
+<item itemtype="Connector" uid="connector-5405" startpinid="Capacitor-2996-rPin" endpinid="Ground-2997-Gnd" pointList="52,300,52,312" />
 
-<item itemtype="Connector" uid="connector-5192" startpinid="Diode-3381-rPin" endpinid="Diode-3389-lPin" pointList="-44,576,-24,576" />
+<item itemtype="Connector" uid="connector-5406" startpinid="Capacitor-2996-lPin" endpinid="Node-3157-1" pointList="52,268,52,252" />
 
-<item itemtype="Connector" uid="connector-5193" startpinid="Ground-3394-Gnd" endpinid="Node-3405-1" pointList="-112,556,-112,544,-80,544" />
+<item itemtype="Connector" uid="connector-5407" startpinid="Node-3157-2" endpinid="Resistor-2964-lPin" pointList="52,252,92,252" />
 
-<item itemtype="Connector" uid="connector-5194" startpinid="Node-3401-2" endpinid="Diode-3396-rPin" pointList="20,544,20,512,8,512" />
+<item itemtype="Connector" uid="connector-5408" startpinid="Diode-3342-lPin" endpinid="Node-3324-0" pointList="-76,368,-80,368,-80,400" />
 
-<item itemtype="Connector" uid="connector-5195" startpinid="Diode-3389-rPin" endpinid="Node-3401-0" pointList="8,576,20,576,20,544" />
+<item itemtype="Connector" uid="connector-5409" startpinid="Node-3324-2" endpinid="Diode-3344-lPin" pointList="-80,400,-80,432,-76,432" />
 
-<item itemtype="Connector" uid="connector-5196" startpinid="Diode-3395-lPin" endpinid="Node-3405-0" pointList="-76,512,-80,512,-80,544" />
+<item itemtype="Connector" uid="connector-5410" startpinid="Ground-3339-Gnd" endpinid="Node-3324-1" pointList="-112,412,-112,400,-80,400" />
 
-<item itemtype="Connector" uid="connector-5197" startpinid="Node-3405-2" endpinid="Diode-3381-lPin" pointList="-80,544,-80,576,-76,576" />
+<item itemtype="Connector" uid="connector-5411" startpinid="Diode-3340-rPin" endpinid="Node-3337-0" pointList="8,432,20,432,20,400" />
 
-<item itemtype="Connector" uid="connector-5198" startpinid="Capacitor-3378-rPin" endpinid="Ground-3397-Gnd" pointList="44,600,44,624" />
+<item itemtype="Connector" uid="connector-5412" startpinid="Capacitor-3335-rPin" endpinid="Ground-3341-Gnd" pointList="44,444,44,456" />
 
-<item itemtype="Connector" uid="connector-5199" startpinid="Diode-3396-lPin" endpinid="Node-3435-0" pointList="-24,512,-32,512" />
+<item itemtype="Connector" uid="connector-5413" startpinid="Diode-3344-rPin" endpinid="Diode-3340-lPin" pointList="-44,432,-24,432" />
 
-<item itemtype="Connector" uid="connector-5200" startpinid="WaveGen-1668-outnod" endpinid="Node-3435-1" pointList="-32,472,-32,512" />
+<item itemtype="Connector" uid="connector-5414" startpinid="Node-3337-2" endpinid="Diode-3330-rPin" pointList="20,400,20,368,8,368" />
 
-<item itemtype="Connector" uid="connector-5201" startpinid="Node-3435-2" endpinid="Diode-3395-rPin" pointList="-32,512,-44,512" />
+<item itemtype="Connector" uid="connector-5415" startpinid="Diode-3330-lPin" endpinid="Node-3376-0" pointList="-24,368,-32,368" />
 
-<item itemtype="Connector" uid="connector-5202" startpinid="Diode-3456-rPin" endpinid="Diode-3440-lPin" pointList="304,636,324,636" />
+<item itemtype="Connector" uid="connector-5416" startpinid="WaveGen-1641-outnod" endpinid="Node-3376-1" pointList="-36,332,-36,368,-32,368" />
 
-<item itemtype="Connector" uid="connector-5203" startpinid="Diode-3440-rPin" endpinid="Node-3463-0" pointList="356,636,368,636,368,604" />
+<item itemtype="Connector" uid="connector-5417" startpinid="Node-3376-2" endpinid="Diode-3342-rPin" pointList="-32,368,-44,368" />
 
-<item itemtype="Connector" uid="connector-5204" startpinid="Capacitor-3449-rPin" endpinid="Ground-3441-Gnd" pointList="392,648,392,664" />
+<item itemtype="Connector" uid="connector-5418" startpinid="Diode-3381-rPin" endpinid="Diode-3389-lPin" pointList="-44,576,-24,576" />
 
-<item itemtype="Connector" uid="connector-5205" startpinid="Node-3463-2" endpinid="Diode-3445-rPin" pointList="368,604,368,572,356,572" />
+<item itemtype="Connector" uid="connector-5419" startpinid="Ground-3394-Gnd" endpinid="Node-3405-1" pointList="-112,556,-112,544,-80,544" />
 
-<item itemtype="Connector" uid="connector-5206" startpinid="Diode-3445-lPin" endpinid="Node-3494-0" pointList="324,572,316,572" />
+<item itemtype="Connector" uid="connector-5420" startpinid="Node-3401-2" endpinid="Diode-3396-rPin" pointList="20,544,20,512,8,512" />
 
-<item itemtype="Connector" uid="connector-5207" startpinid="WaveGen-1693-outnod" endpinid="Node-3494-1" pointList="300,532,316,532,316,572" />
+<item itemtype="Connector" uid="connector-5421" startpinid="Diode-3389-rPin" endpinid="Node-3401-0" pointList="8,576,20,576,20,544" />
 
-<item itemtype="Connector" uid="connector-5208" startpinid="Node-3494-2" endpinid="Diode-3458-rPin" pointList="316,572,304,572" />
+<item itemtype="Connector" uid="connector-5422" startpinid="Diode-3395-lPin" endpinid="Node-3405-0" pointList="-76,512,-80,512,-80,544" />
 
-<item itemtype="Connector" uid="connector-5209" startpinid="Node-3337-1" endpinid="Capacitor-3335-lPin" pointList="20,400,44,400,44,412" />
+<item itemtype="Connector" uid="connector-5423" startpinid="Node-3405-2" endpinid="Diode-3381-lPin" pointList="-80,544,-80,576,-76,576" />
 
-<item itemtype="Connector" uid="connector-5210" startpinid="Resistor-4082-rPin" endpinid="Ground-4084-Gnd" pointList="136,440,136,456" />
+<item itemtype="Connector" uid="connector-5424" startpinid="Capacitor-3378-rPin" endpinid="Ground-3397-Gnd" pointList="44,600,44,624" />
 
-<item itemtype="Connector" uid="connector-5211" startpinid="Probe-3346-inpin" endpinid="Resistor-4083-lPin" pointList="44,400,64,400" />
+<item itemtype="Connector" uid="connector-5425" startpinid="Diode-3396-lPin" endpinid="Node-3435-0" pointList="-24,512,-32,512" />
 
-<item itemtype="Connector" uid="connector-5212" startpinid="Diode-3458-lPin" endpinid="Node-4125-0" pointList="272,572,268,572,268,596" />
+<item itemtype="Connector" uid="connector-5426" startpinid="WaveGen-1668-outnod" endpinid="Node-3435-1" pointList="-32,472,-32,512" />
 
-<item itemtype="Connector" uid="connector-5213" startpinid="Node-3401-1" endpinid="Capacitor-3378-lPin" pointList="20,544,44,544,44,568" />
+<item itemtype="Connector" uid="connector-5427" startpinid="Node-3435-2" endpinid="Diode-3395-rPin" pointList="-32,512,-44,512" />
 
-<item itemtype="Connector" uid="connector-5214" startpinid="Resistor-4099-rPin" endpinid="Ground-4097-Gnd" pointList="148,584,148,600" />
+<item itemtype="Connector" uid="connector-5428" startpinid="Diode-3456-rPin" endpinid="Diode-3440-lPin" pointList="304,636,324,636" />
 
-<item itemtype="Connector" uid="connector-5215" startpinid="Resistor-4095-lPin" endpinid="Probe-3403-inpin" pointList="76,544,44,544" />
+<item itemtype="Connector" uid="connector-5429" startpinid="Diode-3440-rPin" endpinid="Node-3463-0" pointList="356,636,368,636,368,604" />
 
-<item itemtype="Connector" uid="connector-5216" startpinid="Node-3463-1" endpinid="Node-4118-0" pointList="368,604,392,604" />
+<item itemtype="Connector" uid="connector-5430" startpinid="Capacitor-3449-rPin" endpinid="Ground-3441-Gnd" pointList="392,648,392,664" />
 
-<item itemtype="Connector" uid="connector-5217" startpinid="Resistor-4110-rPin" endpinid="Ground-4109-Gnd" pointList="484,644,484,660" />
+<item itemtype="Connector" uid="connector-5431" startpinid="Node-3463-2" endpinid="Diode-3445-rPin" pointList="368,604,368,572,356,572" />
 
-<item itemtype="Connector" uid="connector-5218" startpinid="Resistor-4111-lPin" endpinid="Node-4118-1" pointList="412,604,392,604" />
+<item itemtype="Connector" uid="connector-5432" startpinid="Diode-3445-lPin" endpinid="Node-3494-0" pointList="324,572,316,572" />
 
-<item itemtype="Connector" uid="connector-5219" startpinid="Node-4118-2" endpinid="Capacitor-3449-lPin" pointList="392,604,392,616" />
+<item itemtype="Connector" uid="connector-5433" startpinid="WaveGen-1693-outnod" endpinid="Node-3494-1" pointList="300,532,316,532,316,572" />
 
-<item itemtype="Connector" uid="connector-5220" startpinid="Ground-4123-Gnd" endpinid="Node-4125-1" pointList="248,628,248,596,268,596" />
+<item itemtype="Connector" uid="connector-5434" startpinid="Node-3494-2" endpinid="Diode-3458-rPin" pointList="316,572,304,572" />
 
-<item itemtype="Connector" uid="connector-5221" startpinid="Node-4125-2" endpinid="Diode-3456-lPin" pointList="268,596,268,636,272,636" />
+<item itemtype="Connector" uid="connector-5435" startpinid="Node-3337-1" endpinid="Capacitor-3335-lPin" pointList="20,400,44,400,44,412" />
 
-<item itemtype="Connector" uid="connector-5222" startpinid="Pcd8544-4-PinCs" endpinid="Uno-3-2" pointList="380,356,380,372,512,372" />
+<item itemtype="Connector" uid="connector-5436" startpinid="Resistor-4082-rPin" endpinid="Ground-4084-Gnd" pointList="136,440,136,456" />
 
-<item itemtype="Connector" uid="connector-5223" startpinid="Resistor-4111-rPin" endpinid="Node-4331-0" pointList="444,604,484,604" />
+<item itemtype="Connector" uid="connector-5437" startpinid="Probe-3346-inpin" endpinid="Resistor-4083-lPin" pointList="44,400,64,400" />
 
-<item itemtype="Connector" uid="connector-5224" startpinid="Resistor-2615-lPin" endpinid="Node-4304-0" pointList="704,124,696,124" />
+<item itemtype="Connector" uid="connector-5438" startpinid="Diode-3458-lPin" endpinid="Node-4125-0" pointList="272,572,268,572,268,596" />
 
-<item itemtype="Connector" uid="connector-5225" startpinid="Resistor-4095-rPin" endpinid="Node-4328-0" pointList="108,544,148,544" />
+<item itemtype="Connector" uid="connector-5439" startpinid="Node-3401-1" endpinid="Capacitor-3378-lPin" pointList="20,544,44,544,44,568" />
 
-<item itemtype="Connector" uid="connector-5226" startpinid="Resistor-4083-rPin" endpinid="Node-4325-0" pointList="96,400,136,400" />
+<item itemtype="Connector" uid="connector-5440" startpinid="Resistor-4099-rPin" endpinid="Ground-4097-Gnd" pointList="148,584,148,600" />
 
-<item itemtype="Connector" uid="connector-5227" startpinid="Resistor-2964-rPin" endpinid="Node-4322-0" pointList="124,252,164,252" />
+<item itemtype="Connector" uid="connector-5441" startpinid="Resistor-4095-lPin" endpinid="Probe-3403-inpin" pointList="76,544,44,544" />
 
-<item itemtype="Connector" uid="connector-5228" startpinid="Resistor-530-lPin" endpinid="Node-4290-0" pointList="208,96,204,96" />
+<item itemtype="Connector" uid="connector-5442" startpinid="Node-3463-1" endpinid="Node-4118-0" pointList="368,604,392,604" />
 
-<item itemtype="Connector" uid="connector-5229" startpinid="Node-4290-2" endpinid="Resistor-544-rPin" pointList="204,96,196,96" />
+<item itemtype="Connector" uid="connector-5443" startpinid="Resistor-4110-rPin" endpinid="Ground-4109-Gnd" pointList="484,644,484,660" />
 
-<item itemtype="Connector" uid="connector-5230" startpinid="Node-4290-1" endpinid="Switch-570-switch9pinN" pointList="204,96,204,132,328,132,328,164" />
+<item itemtype="Connector" uid="connector-5444" startpinid="Resistor-4111-lPin" endpinid="Node-4118-1" pointList="412,604,392,604" />
 
-<item itemtype="Connector" uid="connector-5231" startpinid="Resistor-2555-lPin" endpinid="Node-4300-0" pointList="304,-8,300,-8" />
+<item itemtype="Connector" uid="connector-5445" startpinid="Node-4118-2" endpinid="Capacitor-3449-lPin" pointList="392,604,392,616" />
 
-<item itemtype="Connector" uid="connector-5232" startpinid="Switch-570-switch7pinN" endpinid="Node-4300-1" pointList="344,164,344,44,300,44,300,-8" />
+<item itemtype="Connector" uid="connector-5446" startpinid="Ground-4123-Gnd" endpinid="Node-4125-1" pointList="248,628,248,596,268,596" />
 
-<item itemtype="Connector" uid="connector-5233" startpinid="Node-4300-2" endpinid="Resistor-2554-rPin" pointList="300,-8,292,-8" />
+<item itemtype="Connector" uid="connector-5447" startpinid="Node-4125-2" endpinid="Diode-3456-lPin" pointList="268,596,268,636,272,636" />
 
-<item itemtype="Connector" uid="connector-5234" startpinid="Resistor-2584-lPin" endpinid="Node-4507-0" pointList="592,-20,584,-20" />
+<item itemtype="Connector" uid="connector-5448" startpinid="Pcd8544-4-PinCs" endpinid="Uno-3-2" pointList="408,352,408,372,512,372" />
 
-<item itemtype="Connector" uid="connector-5235" startpinid="Node-4304-2" endpinid="Resistor-2614-rPin" pointList="696,124,692,124" />
+<item itemtype="Connector" uid="connector-5449" startpinid="Resistor-4111-rPin" endpinid="Node-4331-0" pointList="444,604,484,604" />
 
-<item itemtype="Connector" uid="connector-5236" startpinid="Fixed Voltage-4308-outnod" endpinid="Switch-570-switch0pinN" pointList="420,144,420,164,400,164" />
+<item itemtype="Connector" uid="connector-5450" startpinid="Resistor-2615-lPin" endpinid="Node-4304-0" pointList="704,124,696,124" />
 
-<item itemtype="Connector" uid="connector-5237" startpinid="Ground-4310-Gnd" endpinid="Switch-570-switch1pinN" pointList="392,136,392,164" />
+<item itemtype="Connector" uid="connector-5451" startpinid="Resistor-4095-rPin" endpinid="Node-4328-0" pointList="108,544,148,544" />
 
-<item itemtype="Connector" uid="connector-5238" startpinid="Switch-570-pinP12" endpinid="Uno-3-A5" pointList="336,196,336,244,676,244,676,356,656,356" />
+<item itemtype="Connector" uid="connector-5452" startpinid="Resistor-4083-rPin" endpinid="Node-4325-0" pointList="96,400,136,400" />
 
-<item itemtype="Connector" uid="connector-5239" startpinid="Switch-570-pinP9" endpinid="Uno-3-A4" pointList="352,196,352,236,684,236,684,364,656,364" />
+<item itemtype="Connector" uid="connector-5453" startpinid="Resistor-2964-rPin" endpinid="Node-4322-0" pointList="124,252,164,252" />
 
-<item itemtype="Connector" uid="connector-5240" startpinid="Switch-570-pinP6" endpinid="Uno-3-A3" pointList="368,196,368,228,692,228,692,372,656,372" />
+<item itemtype="Connector" uid="connector-5454" startpinid="Resistor-530-lPin" endpinid="Node-4290-0" pointList="208,96,204,96" />
 
-<item itemtype="Connector" uid="connector-5241" startpinid="Switch-570-pinP3" endpinid="Uno-3-A2" pointList="384,196,384,220,700,220,700,380,656,380" />
+<item itemtype="Connector" uid="connector-5455" startpinid="Node-4290-2" endpinid="Resistor-544-rPin" pointList="204,96,196,96" />
 
-<item itemtype="Connector" uid="connector-5242" startpinid="Switch-570-pinP0" endpinid="Uno-3-7" pointList="400,196,492,196,492,412,512,412" />
+<item itemtype="Connector" uid="connector-5456" startpinid="Node-4290-1" endpinid="Switch-570-switch9pinN" pointList="204,96,204,132,328,132,328,164" />
 
-<item itemtype="Connector" uid="connector-5243" startpinid="Uno-3-GND0" endpinid="Node-4320-0" pointList="656,420,668,420" />
+<item itemtype="Connector" uid="connector-5457" startpinid="Resistor-2555-lPin" endpinid="Node-4300-0" pointList="304,-8,300,-8" />
 
-<item itemtype="Connector" uid="connector-5244" startpinid="Uno-3-GND1" endpinid="Node-4320-1" pointList="656,428,668,428,668,420" />
+<item itemtype="Connector" uid="connector-5458" startpinid="Switch-570-switch7pinN" endpinid="Node-4300-1" pointList="344,164,344,44,300,44,300,-8" />
 
-<item itemtype="Connector" uid="connector-5245" startpinid="Node-4320-2" endpinid="Ground-4317-Gnd" pointList="668,420,724,420,724,428" />
+<item itemtype="Connector" uid="connector-5459" startpinid="Node-4300-2" endpinid="Resistor-2554-rPin" pointList="300,-8,292,-8" />
 
-<item itemtype="Connector" uid="connector-5246" startpinid="Node-4322-2" endpinid="Resistor-2969-lPin" pointList="164,252,164,260" />
+<item itemtype="Connector" uid="connector-5460" startpinid="Resistor-2584-lPin" endpinid="Node-4507-0" pointList="592,-20,584,-20" />
 
-<item itemtype="Connector" uid="connector-5247" startpinid="Node-4322-1" endpinid="Switch-570-switch8pinN" pointList="164,252,308,252,308,152,336,152,336,164" />
+<item itemtype="Connector" uid="connector-5461" startpinid="Node-4304-2" endpinid="Resistor-2614-rPin" pointList="696,124,692,124" />
 
-<item itemtype="Connector" uid="connector-5248" startpinid="Node-4325-2" endpinid="Resistor-4082-lPin" pointList="136,400,136,408" />
+<item itemtype="Connector" uid="connector-5462" startpinid="Fixed Voltage-4308-outnod" endpinid="Switch-570-switch0pinN" pointList="420,144,420,164,400,164" />
 
-<item itemtype="Connector" uid="connector-5249" startpinid="Node-4328-2" endpinid="Resistor-4099-lPin" pointList="148,544,148,552" />
+<item itemtype="Connector" uid="connector-5463" startpinid="Ground-4310-Gnd" endpinid="Switch-570-switch1pinN" pointList="392,136,392,164" />
 
-<item itemtype="Connector" uid="connector-5250" startpinid="Node-4328-1" endpinid="Switch-570-switch4pinN" pointList="148,544,236,544,236,144,368,144,368,164" />
+<item itemtype="Connector" uid="connector-5464" startpinid="Switch-570-pinP12" endpinid="Node-5537-0" pointList="336,196,336,244,676,244,676,356" />
 
-<item itemtype="Connector" uid="connector-5251" startpinid="Node-4331-2" endpinid="Resistor-4110-lPin" pointList="484,604,484,612" />
+<item itemtype="Connector" uid="connector-5465" startpinid="Switch-570-pinP9" endpinid="Node-5532-0" pointList="352,196,352,236,684,236,684,316" />
 
-<item itemtype="Connector" uid="connector-5252" startpinid="Node-4331-1" endpinid="Switch-570-switch2pinN" pointList="484,604,484,500,288,500,288,140,384,140,384,164" />
+<item itemtype="Connector" uid="connector-5466" startpinid="Switch-570-pinP6" endpinid="Node-5527-0" pointList="368,196,368,228,692,228,692,272" />
 
-<item itemtype="Connector" uid="connector-5253" startpinid="Resistor-2969-rPin" endpinid="Ground-3698-Gnd" pointList="164,292,164,308" />
+<item itemtype="Connector" uid="connector-5467" startpinid="Switch-570-pinP0" endpinid="Uno-3-7" pointList="400,196,492,196,492,412,512,412" />
 
-<item itemtype="Connector" uid="connector-5254" startpinid="Node-4325-1" endpinid="Switch-570-switch6pinN" pointList="136,400,268,400,268,368,300,368,300,148,352,148,352,164" />
+<item itemtype="Connector" uid="connector-5468" startpinid="Uno-3-GND0" endpinid="Node-4320-0" pointList="656,420,668,420" />
 
-<item itemtype="Connector" uid="connector-5255" startpinid="Node-4507-2" endpinid="Resistor-2583-rPin" pointList="584,-20,580,-20" />
+<item itemtype="Connector" uid="connector-5469" startpinid="Uno-3-GND1" endpinid="Node-4320-1" pointList="656,428,668,428,668,420" />
 
-<item itemtype="Connector" uid="connector-5256" startpinid="Switch-570-switch5pinN" endpinid="Node-4507-1" pointList="360,164,360,68,584,68,584,-20" />
+<item itemtype="Connector" uid="connector-5470" startpinid="Node-4320-2" endpinid="Ground-4317-Gnd" pointList="668,420,724,420,724,428" />
 
-<item itemtype="Connector" uid="connector-5257" startpinid="Fixed Voltage-4515-outnod" endpinid="Resistor-4516-lPin" pointList="28,84,36,84" />
+<item itemtype="Connector" uid="connector-5471" startpinid="Node-4322-2" endpinid="Resistor-2969-lPin" pointList="164,252,164,260" />
 
-<item itemtype="Connector" uid="connector-5258" startpinid="Resistor-543-rPin" endpinid="Node-4521-0" pointList="68,44,76,44,76,64" />
+<item itemtype="Connector" uid="connector-5472" startpinid="Node-4322-1" endpinid="Switch-570-switch8pinN" pointList="164,252,308,252,308,152,336,152,336,164" />
 
-<item itemtype="Connector" uid="connector-5259" startpinid="Node-4521-2" endpinid="Resistor-4516-rPin" pointList="76,64,76,84,68,84" />
+<item itemtype="Connector" uid="connector-5473" startpinid="Node-4325-2" endpinid="Resistor-4082-lPin" pointList="136,400,136,408" />
 
-<item itemtype="Connector" uid="connector-5260" startpinid="Node-4521-1" endpinid="opAmp-540-inputNinv" pointList="76,64,100,64,100,88" />
+<item itemtype="Connector" uid="connector-5474" startpinid="Node-4328-2" endpinid="Resistor-4099-lPin" pointList="148,544,148,552" />
 
-<item itemtype="Connector" uid="connector-5261" startpinid="Fixed Voltage-4866-outnod" endpinid="Resistor-4869-lPin" pointList="120,-16,128,-16" />
+<item itemtype="Connector" uid="connector-5475" startpinid="Node-4328-1" endpinid="Switch-570-switch4pinN" pointList="148,544,236,544,236,144,368,144,368,164" />
 
-<item itemtype="Connector" uid="connector-5262" startpinid="Resistor-4865-lPin" endpinid="Fixed Voltage-4868-outnod" pointList="128,-56,120,-56" />
+<item itemtype="Connector" uid="connector-5476" startpinid="Node-4331-2" endpinid="Resistor-4110-lPin" pointList="484,604,484,612" />
 
-<item itemtype="Connector" uid="connector-5263" startpinid="Resistor-4865-rPin" endpinid="Node-4875-0" pointList="160,-56,168,-56,168,-36" />
+<item itemtype="Connector" uid="connector-5477" startpinid="Node-4331-1" endpinid="Switch-570-switch2pinN" pointList="484,604,484,500,288,500,288,140,384,140,384,164" />
 
-<item itemtype="Connector" uid="connector-5264" startpinid="Node-4875-2" endpinid="Resistor-4869-rPin" pointList="168,-36,168,-16,160,-16" />
+<item itemtype="Connector" uid="connector-5478" startpinid="Resistor-2969-rPin" endpinid="Ground-3698-Gnd" pointList="164,292,164,308" />
 
-<item itemtype="Connector" uid="connector-5265" startpinid="Node-4875-1" endpinid="opAmp-2558-inputNinv" pointList="168,-36,196,-36,196,-16" />
+<item itemtype="Connector" uid="connector-5479" startpinid="Node-4325-1" endpinid="Switch-570-switch6pinN" pointList="136,400,268,400,268,368,300,368,300,148,352,148,352,164" />
 
-<item itemtype="Connector" uid="connector-5266" startpinid="Fixed Voltage-4878-outnod" endpinid="Resistor-4882-lPin" pointList="408,-24,416,-24" />
+<item itemtype="Connector" uid="connector-5480" startpinid="Node-4507-2" endpinid="Resistor-2583-rPin" pointList="584,-20,580,-20" />
 
-<item itemtype="Connector" uid="connector-5267" startpinid="Resistor-4879-rPin" endpinid="Node-4889-0" pointList="448,-64,456,-64,456,-44" />
+<item itemtype="Connector" uid="connector-5481" startpinid="Switch-570-switch5pinN" endpinid="Node-4507-1" pointList="360,164,360,68,584,68,584,-20" />
 
-<item itemtype="Connector" uid="connector-5268" startpinid="Node-4889-2" endpinid="Resistor-4882-rPin" pointList="456,-44,456,-24,448,-24" />
+<item itemtype="Connector" uid="connector-5482" startpinid="Fixed Voltage-4515-outnod" endpinid="Resistor-4516-lPin" pointList="28,84,36,84" />
 
-<item itemtype="Connector" uid="connector-5269" startpinid="Node-4889-1" endpinid="opAmp-2587-inputNinv" pointList="456,-44,484,-44,484,-28" />
+<item itemtype="Connector" uid="connector-5483" startpinid="Resistor-543-rPin" endpinid="Node-4521-0" pointList="68,44,76,44,76,64" />
 
-<item itemtype="Connector" uid="connector-5270" startpinid="Fixed Voltage-4888-outnod" endpinid="Resistor-4879-lPin" pointList="408,-64,416,-64" />
+<item itemtype="Connector" uid="connector-5484" startpinid="Node-4521-2" endpinid="Resistor-4516-rPin" pointList="76,64,76,84,68,84" />
 
-<item itemtype="Connector" uid="connector-5271" startpinid="Switch-570-switch3pinN" endpinid="Node-4304-1" pointList="376,164,376,76,696,76,696,124" />
+<item itemtype="Connector" uid="connector-5485" startpinid="Node-4521-1" endpinid="opAmp-540-inputNinv" pointList="76,64,100,64,100,88" />
 
-<item itemtype="Connector" uid="connector-5272" startpinid="Fixed Voltage-4899-outnod" endpinid="Resistor-4898-lPin" pointList="512,128,520,128" />
+<item itemtype="Connector" uid="connector-5486" startpinid="Fixed Voltage-4866-outnod" endpinid="Resistor-4869-lPin" pointList="120,-16,128,-16" />
 
-<item itemtype="Connector" uid="connector-5273" startpinid="Resistor-4901-rPin" endpinid="Node-4910-0" pointList="552,88,560,88,560,116" />
+<item itemtype="Connector" uid="connector-5487" startpinid="Resistor-4865-lPin" endpinid="Fixed Voltage-4868-outnod" pointList="128,-56,120,-56" />
 
-<item itemtype="Connector" uid="connector-5274" startpinid="Node-4910-2" endpinid="Resistor-4898-rPin" pointList="560,116,560,128,552,128" />
+<item itemtype="Connector" uid="connector-5488" startpinid="Resistor-4865-rPin" endpinid="Node-4875-0" pointList="160,-56,168,-56,168,-36" />
 
-<item itemtype="Connector" uid="connector-5275" startpinid="Node-4910-1" endpinid="opAmp-2618-inputNinv" pointList="560,116,596,116" />
+<item itemtype="Connector" uid="connector-5489" startpinid="Node-4875-2" endpinid="Resistor-4869-rPin" pointList="168,-36,168,-16,160,-16" />
 
-<item itemtype="Connector" uid="connector-5276" startpinid="Fixed Voltage-4913-outnod" endpinid="Resistor-4901-lPin" pointList="508,88,520,88" />
+<item itemtype="Connector" uid="connector-5490" startpinid="Node-4875-1" endpinid="opAmp-2558-inputNinv" pointList="168,-36,196,-36,196,-16" />
 
-<item itemtype="Connector" uid="Connector-5279" startpinid="Uno-3-0" endpinid="SerialPort-5095-pin0" pointList="512,356,476,356,476,284,504,284" />
+<item itemtype="Connector" uid="connector-5491" startpinid="Fixed Voltage-4878-outnod" endpinid="Resistor-4882-lPin" pointList="408,-24,416,-24" />
 
-<item itemtype="Connector" uid="Connector-5280" startpinid="SerialPort-5095-pin1" endpinid="Uno-3-1" pointList="504,300,496,300,496,364,512,364" />
+<item itemtype="Connector" uid="connector-5492" startpinid="Resistor-4879-rPin" endpinid="Node-4889-0" pointList="448,-64,456,-64,456,-44" />
+
+<item itemtype="Connector" uid="connector-5493" startpinid="Node-4889-2" endpinid="Resistor-4882-rPin" pointList="456,-44,456,-24,448,-24" />
+
+<item itemtype="Connector" uid="connector-5494" startpinid="Node-4889-1" endpinid="opAmp-2587-inputNinv" pointList="456,-44,484,-44,484,-28" />
+
+<item itemtype="Connector" uid="connector-5495" startpinid="Fixed Voltage-4888-outnod" endpinid="Resistor-4879-lPin" pointList="408,-64,416,-64" />
+
+<item itemtype="Connector" uid="connector-5496" startpinid="Switch-570-switch3pinN" endpinid="Node-4304-1" pointList="376,164,376,76,696,76,696,124" />
+
+<item itemtype="Connector" uid="connector-5497" startpinid="Fixed Voltage-4899-outnod" endpinid="Resistor-4898-lPin" pointList="512,128,520,128" />
+
+<item itemtype="Connector" uid="connector-5498" startpinid="Resistor-4901-rPin" endpinid="Node-4910-0" pointList="552,88,560,88,560,116" />
+
+<item itemtype="Connector" uid="connector-5499" startpinid="Node-4910-2" endpinid="Resistor-4898-rPin" pointList="560,116,560,128,552,128" />
+
+<item itemtype="Connector" uid="connector-5500" startpinid="Node-4910-1" endpinid="opAmp-2618-inputNinv" pointList="560,116,596,116" />
+
+<item itemtype="Connector" uid="connector-5501" startpinid="Fixed Voltage-4913-outnod" endpinid="Resistor-4901-lPin" pointList="508,88,520,88" />
+
+<item itemtype="Connector" uid="connector-5502" startpinid="Uno-3-0" endpinid="SerialPort-5095-pin0" pointList="512,356,476,356,476,284,504,284" />
+
+<item itemtype="Connector" uid="connector-5503" startpinid="SerialPort-5095-pin1" endpinid="Uno-3-1" pointList="504,300,496,300,496,364,512,364" />
+
+<item itemtype="Connector" uid="connector-5504" startpinid="Switch-570-pinP3" endpinid="Node-5283-0" pointList="384,196,384,220,700,220" />
+
+<item itemtype="Connector" uid="connector-5505" startpinid="Node-5283-2" endpinid="Uno-3-A2" pointList="700,220,700,380,656,380" />
+
+<item itemtype="Connector" uid="connector-5506" startpinid="Node-5283-1" endpinid="Node-5288-0" pointList="700,220,712,220" />
+
+<item itemtype="Connector" uid="connector-5507" startpinid="Capacitor-5286-lPin" endpinid="Node-5288-1" pointList="728,252,712,252,712,220" />
+
+<item itemtype="Connector" uid="connector-5508" startpinid="Node-5288-2" endpinid="Resistor-5279-lPin" pointList="712,220,728,220" />
+
+<item itemtype="Connector" uid="connector-5509" startpinid="Resistor-5279-rPin" endpinid="Node-5293-0" pointList="760,220,776,220" />
+
+<item itemtype="Connector" uid="connector-5510" startpinid="Ground-5291-Gnd" endpinid="Node-5293-1" pointList="776,204,776,220" />
+
+<item itemtype="Connector" uid="connector-5511" startpinid="Node-5293-2" endpinid="Capacitor-5286-rPin" pointList="776,220,776,252,760,252" />
+
+<item itemtype="Connector" uid="connector-5512" startpinid="Ground-5298-Gnd" endpinid="Node-5296-1" pointList="816,256,816,272" />
+
+<item itemtype="Connector" uid="connector-5513" startpinid="Node-5296-2" endpinid="Capacitor-5299-rPin" pointList="816,272,816,304,800,304" />
+
+<item itemtype="Connector" uid="connector-5514" startpinid="Resistor-5295-rPin" endpinid="Node-5296-0" pointList="800,272,816,272" />
+
+<item itemtype="Connector" uid="connector-5515" startpinid="Ground-5309-Gnd" endpinid="Node-5307-1" pointList="872,300,872,316" />
+
+<item itemtype="Connector" uid="connector-5516" startpinid="Node-5307-2" endpinid="Capacitor-5310-rPin" pointList="872,316,872,348,856,348" />
+
+<item itemtype="Connector" uid="connector-5517" startpinid="Resistor-5306-rPin" endpinid="Node-5307-0" pointList="856,316,872,316" />
+
+<item itemtype="Connector" uid="connector-5518" startpinid="Capacitor-5310-lPin" endpinid="Node-5529-0" pointList="824,348,808,348,808,316" />
+
+<item itemtype="Connector" uid="connector-5519" startpinid="Ground-5320-Gnd" endpinid="Node-5318-1" pointList="936,340,936,356" />
+
+<item itemtype="Connector" uid="connector-5520" startpinid="Node-5318-2" endpinid="Capacitor-5321-rPin" pointList="936,356,936,388,920,388" />
+
+<item itemtype="Connector" uid="connector-5521" startpinid="Resistor-5317-rPin" endpinid="Node-5318-0" pointList="920,356,936,356" />
+
+<item itemtype="Connector" uid="connector-5522" startpinid="Capacitor-5321-lPin" endpinid="Node-5534-0" pointList="888,388,872,388,872,356" />
+
+<item itemtype="Connector" uid="connector-5523" startpinid="Capacitor-5299-lPin" endpinid="Node-5524-0" pointList="768,304,752,304,752,272" />
+
+<item itemtype="Connector" uid="Connector-5525" startpinid="Node-5524-2" endpinid="Resistor-5295-lPin" pointList="752,272,768,272" />
+
+<item itemtype="Connector" uid="Connector-5526" startpinid="Node-5524-1" endpinid="Node-5527-1" pointList="752,272,692,272" />
+
+<item itemtype="Connector" uid="Connector-5528" startpinid="Node-5527-2" endpinid="Uno-3-A3" pointList="692,272,692,372,656,372" />
+
+<item itemtype="Connector" uid="Connector-5530" startpinid="Node-5529-2" endpinid="Resistor-5306-lPin" pointList="808,316,824,316" />
+
+<item itemtype="Connector" uid="Connector-5531" startpinid="Node-5529-1" endpinid="Node-5532-1" pointList="808,316,684,316" />
+
+<item itemtype="Connector" uid="Connector-5533" startpinid="Node-5532-2" endpinid="Uno-3-A4" pointList="684,316,684,364,656,364" />
+
+<item itemtype="Connector" uid="Connector-5535" startpinid="Node-5534-2" endpinid="Resistor-5317-lPin" pointList="872,356,888,356" />
+
+<item itemtype="Connector" uid="Connector-5536" startpinid="Node-5534-1" endpinid="Node-5537-1" pointList="872,356,676,356" />
+
+<item itemtype="Connector" uid="Connector-5538" startpinid="Node-5537-2" endpinid="Uno-3-A5" pointList="676,356,656,356" />
 
 </circuit>

@@ -40,6 +40,8 @@ void setup() {
 
   // Se establece AC_PIN como entrada 
   pinMode(AC_PIN, INPUT);
+
+  Serial.begin(9600);
 }
 
 
@@ -71,26 +73,38 @@ void loop(){
     // Se escribe en 1era linea del display
     lcd.setCursor(0, 0);
     lcd.print("V1: ");
+    Serial.print("V1: ");
     lcd.print(V1);
+    Serial.print( V1 );
     lcd.print(" V ");
+    Serial.print(" V ");
   
     // Se escribe en 2da linea del display
     lcd.setCursor(0, 1);
     lcd.print("V2: ");
+    Serial.print("V2: ");
     lcd.print(V2);
+    Serial.print( V2 );
     lcd.print(" V ");
+    Serial.print(" V ");
 
     // Se escribe en 3ra linea del display
     lcd.setCursor(0, 2);
     lcd.print("V3: ");
+    Serial.print("V3: ");
     lcd.print(V3);
+    Serial.print( V3 );
     lcd.print(" V ");
+    Serial.print(" V ");
 
     // Se escribe en 4ta linea del display
     lcd.setCursor(0, 3);
     lcd.print("V4: ");
+    Serial.print("V4: ");
     lcd.print(V4);
+    Serial.print( V4 );
     lcd.print(" V ");
+    Serial.println(" V "); 
 
   }else if(ac_pin){
     // Se obtiene Vrms
@@ -102,26 +116,38 @@ void loop(){
     // Se escribe en 1era linea del display
     lcd.setCursor(0, 0);
     lcd.print("V1: ");
+    Serial.print("V1: ");
     lcd.print(V1);
+    Serial.print( V1 );
     lcd.print("Vrms");
+    Serial.print(" Vrms ");
   
     // Se escribe en 2da linea del display
     lcd.setCursor(0, 1);
     lcd.print("V2: ");
+    Serial.print("V2: ");
     lcd.print(V2);
+    Serial.print( V2 );
     lcd.print("Vrms");
+    Serial.print(" Vrms ");
 
     // Se escribe en 3ra linea del display
     lcd.setCursor(0, 2);
     lcd.print("V3: ");
+    Serial.print("V3: ");
     lcd.print(V3);
+    Serial.print( V3 );
     lcd.print("Vrms");
+    Serial.print(" Vrms ");
 
     // Se escribe en 4ta linea del display
     lcd.setCursor(0, 3);
     lcd.print("V4: ");
+    Serial.print("V4: ");
     lcd.print(V4);
+    Serial.print( V4 );
     lcd.print("Vrms");
+    Serial.println(" Vrms ");
 
   }
 

@@ -3,6 +3,7 @@
 
 /* MACROS */
 #define AC_PIN 7
+#define LED_PIN 13
 
 // Se definen los PINES a leer
 float V1 = 0;
@@ -10,8 +11,22 @@ float V2 = 0;
 float V3 = 0;
 float V4 = 0;
 
+// Resistencias divisoras de voltage
+// Parte DC:
+const float RESISTOR1 = 10000.0;
+const float RESISTOR2 = 86000.0;
+// Parte AC:
+const float RESISTOR3 = 10000.0;
+const float RESISTOR4 = 12800.0;
+
+// Lista para iterar entre voltajes
+float listaVoltajes[4] = {0.0,0.0,0.0,0.0}; 
+
 // Variable para saber si AC_PIN esta alto/bajo
 int ac_pin = 0;
+
+// ledPin warning inicia en estado bajo
+int ledPin = 0;
 
 // Se define rango permitido por pines Arduino
 float rangoInicialMin = 0.0, rangoInicialMax = 5.0;
@@ -24,12 +39,17 @@ static PCD8544 lcd;
                                                                                   /*  FUNCIONES  */
 // Funcion para escalar el voltaje de entrada
 float escalar(float valor){
-  // Regla de 3
-  float voltajeReal = ( (valor - rangoInicialMin)/( rangoInicialMax - rangoInicialMin) )* (rangoFinalMax - rangoFinalMin) + rangoFinalMin;
-  return voltajeReal;
-
+    float voltajeReal;
+    if(ac_pin){
+      // Escalar el voltaje usando las resistencias del divisor para AC
+      voltajeReal = (valor * (RESISTOR3 + RESISTOR4) / RESISTOR3)*2;
+    }else{
+      // Escalar el voltaje usando las resistencias del divisor para DC
+      voltajeReal = valor * (RESISTOR1 + RESISTOR2) / RESISTOR1;
+      voltajeReal = (voltajeReal - 24.0); // Ajustar el rango del voltaje
+    }
+    return voltajeReal;
 }
-
 
 void setup() {
   // Voltaje de referencia, para que display lea entre 0 y 5V
@@ -41,11 +61,16 @@ void setup() {
   // Se establece AC_PIN como entrada 
   pinMode(AC_PIN, INPUT);
 
+  // Se establece LED_PIN como salida 
+  pinMode(LED_PIN, OUTPUT);
+  digitalWrite(LED_PIN, LOW);
+
   Serial.begin(9600);
 }
 
 
 void loop(){
+
   // Se leen los pines de entrada
   V1 = analogRead(A5);
   V2 = analogRead(A4);
@@ -63,10 +88,29 @@ void loop(){
   V4 = (V4*5)/1023.0;
 
   // Escalar el voltaje al valor real
-    V1 = escalar(V1);
-    V2 = escalar(V2);
-    V3 = escalar(V3);
-    V4 = escalar(V4);
+  V1 = escalar(V1);
+  V2 = escalar(V2);
+  V3 = escalar(V3);
+  V4 = escalar(V4);
+
+  // Se agregan a la lista
+  listaVoltajes[0] = V1; 
+  listaVoltajes[1] = V2;
+  listaVoltajes[2] = V3;
+  listaVoltajes[3] = V4;
+
+  for(int i; i<4; i++){
+        // Encender el LED warning si voltaje mayor/menor a 20V
+        if(abs(listaVoltajes[i]) > 20) {
+          digitalWrite(LED_PIN, HIGH);
+          break;
+        } else if(abs(listaVoltajes[i]) < -20){
+          digitalWrite(LED_PIN, HIGH);
+          break;
+        }else{
+          digitalWrite(LED_PIN, LOW);
+        }
+  }
 
   if(!ac_pin){
 

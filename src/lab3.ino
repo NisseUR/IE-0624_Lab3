@@ -4,6 +4,7 @@
 /* MACROS */
 #define AC_PIN 7
 #define LED_PIN 13
+#define SERIAL_PIN 8
 
 // Se definen los PINES a leer
 float V1 = 0;
@@ -65,6 +66,11 @@ void setup() {
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, LOW);
 
+  // Se establece SERIAL_PIN como entrada
+  pinMode(SERIAL_PIN, INPUT);
+  digitalWrite(SERIAL_PIN, LOW);
+
+
   Serial.begin(9600);
 }
 
@@ -76,6 +82,9 @@ void loop(){
   V2 = analogRead(A4);
   V3 = analogRead(A3);
   V4 = analogRead(A2);
+
+  // Se lee SERIAL_PIN para saber si esta alto/bajo
+  int serial_pin = digitalRead(SERIAL_PIN);
 
   // Se lee AC_PIN para saber si esta alto/bajo
   ac_pin = digitalRead(AC_PIN);
@@ -117,43 +126,56 @@ void loop(){
     // Se escribe en 1era linea del display
     lcd.setCursor(0, 0);
     lcd.print("V1: ");
-    Serial.println("Voltages DC ");
-    Serial.print("V1: ");
     lcd.print(V1);
-    Serial.print( V1 );
     lcd.print(" V ");
-    Serial.print(" V ");
-    Serial.println();
+
+    if(serial_pin){
+      Serial.begin(9600);
+      Serial.println("Voltages DC ");
+      Serial.print("V1: ");
+      Serial.print( V1 );
+      Serial.print(" V ");
+      Serial.println();
+      Serial.end();
+    }
   
     // Se escribe en 2da linea del display
     lcd.setCursor(0, 1);
     lcd.print("V2: ");
-    Serial.print("V2: ");
     lcd.print(V2);
-    Serial.print( V2 );
     lcd.print(" V ");
-    Serial.print(" V ");
-    Serial.println();
 
     // Se escribe en 3ra linea del display
     lcd.setCursor(0, 2);
     lcd.print("V3: ");
-    Serial.print("V3: ");
     lcd.print(V3);
-    Serial.print( V3 );
     lcd.print(" V ");
-    Serial.print(" V ");
-    Serial.println();
 
     // Se escribe en 4ta linea del display
     lcd.setCursor(0, 3);
     lcd.print("V4: ");
-    Serial.print("V4: ");
     lcd.print(V4);
-    Serial.print( V4 );
     lcd.print(" V ");
-    Serial.print(" V ");
-    Serial.println();
+
+    if(serial_pin){
+      Serial.begin(9600);
+      //V2
+      Serial.print("V2: ");
+      Serial.print( V2 );
+      Serial.print(" V ");
+      Serial.println();
+      //V3
+      Serial.print("V3: ");
+      Serial.print( V3 );
+      Serial.print(" V ");
+      Serial.println();
+      //V4
+      Serial.print("V4: ");
+      Serial.print( V4 );
+      Serial.print(" V ");
+      Serial.println();
+      Serial.end();
+    }
 
     delay(500);
 
@@ -167,43 +189,56 @@ void loop(){
     // Se escribe en 1era linea del display
     lcd.setCursor(0, 0);
     lcd.print("V1: ");
-    Serial.println("Voltages AC ");
-    Serial.print("V1: ");
     lcd.print(V1);
-    Serial.print( V1 );
     lcd.print("Vrms");
-    Serial.print(" Vrms ");
-    Serial.println();
+
+    if(serial_pin){
+      Serial.begin(9600);
+      Serial.println("Voltages AC ");
+      Serial.print("V1: ");
+      Serial.print( V1 );
+      Serial.print(" Vrms ");
+      Serial.println();
+      Serial.end();
+    }
   
     // Se escribe en 2da linea del display
     lcd.setCursor(0, 1);
     lcd.print("V2: ");
-    Serial.print("V2: ");
     lcd.print(V2);
-    Serial.print( V2 );
     lcd.print("Vrms");
-    Serial.print(" Vrms ");
-    Serial.println();
 
     // Se escribe en 3ra linea del display
     lcd.setCursor(0, 2);
     lcd.print("V3: ");
-    Serial.print("V3: ");
     lcd.print(V3);
-    Serial.print( V3 );
     lcd.print("Vrms");
-    Serial.print(" Vrms ");
-    Serial.println();
 
     // Se escribe en 4ta linea del display
     lcd.setCursor(0, 3);
     lcd.print("V4: ");
-    Serial.print("V4: ");
     lcd.print(V4);
-    Serial.print( V4 );
     lcd.print("Vrms");
-    Serial.print(" Vrms ");
-    Serial.println();
+
+    if(serial_pin){
+      Serial.begin(9600);
+      //V2
+      Serial.print("V2: ");
+      Serial.print( V2 );
+      Serial.print(" Vrms ");
+      Serial.println();
+      //V3
+      Serial.print("V3: ");
+      Serial.print( V3 );
+      Serial.print(" Vrms ");
+      Serial.println();
+      //V4
+      Serial.print("V4: ");
+      Serial.print( V4 );
+      Serial.print(" Vrms ");
+      Serial.println();
+      Serial.end();
+    }
 
     delay(500);
 
